@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
         body {
             margin: 0;
             padding: 0;
@@ -39,45 +39,3 @@
             pointer-events: none; 
             user-select: none;
         }
-=======
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden; 
-            background-color: #000;
-        }
-        #canvas-container {
-            width: 100vw;
-            height: 100vh;
-            display: block;
-        }
-        
-       
-        .overlay-text {
-            position: absolute;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-family: 'Cormorant Unicase';
-            font-size: 6rem;
-            pointer-events: none; 
-            user-select: none;
-        }
-
-        .overlay-text hgl{
-            color: #F60300;
-        }
-
-        .overlay-text-quote {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-family: 'Cormorant Unicase';
-            font-size: 2rem;
-            pointer-events: none; 
-            user-select: none;
-        }
->>>>>>> 42ecdd8fb357f902b913e4f58379bb7763e5cac5
