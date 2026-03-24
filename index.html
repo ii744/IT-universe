@@ -175,12 +175,17 @@
             }
         }
 
-        const waitTime = 5000;
-
+const totalWaitTime = 5000;
+    const fadeAnimationTime = 500;
     setTimeout(() => {
-        window.location.href = "index-main.html";
-    }, waitTime);
+        document.querySelector('.overlay-text').classList.add('fade-out-element');
+        document.querySelector('.overlay-text-quote').classList.add('fade-out-element');
+        
+        setTimeout(() => {
+            window.location.href = "index-main.html";
+        }, fadeAnimationTime);
 
+    }, totalWaitTime - fadeAnimationTime);
     </script>
     
 </body>

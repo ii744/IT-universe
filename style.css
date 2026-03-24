@@ -155,3 +155,19 @@
         }
 
         .d-none { display: none; }
+
+.fade-out-element {
+    opacity: 0 !important;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
